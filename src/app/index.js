@@ -8,6 +8,10 @@ class Layout extends React.Component{
 	getVal(){
 		return "narang"
 	}
+	constructor(){
+		super();
+		this.name = "pasha";
+	}
 	render(){
 		const name = "sumit"
 		//JSX part wrapped in paranthese will convert html to js created element
@@ -15,7 +19,7 @@ class Layout extends React.Component{
 		//div1.innerHTML = "Hello";
 		//so jsx will transpile to above
 		return(
-			<h1>How is it going {name} {4+3} {this.getVal()}</h1>
+			<h1>{this.name} How is it going {name} {4+3} {this.getVal()}</h1>
 		);
 	}
 }
