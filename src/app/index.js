@@ -8,6 +8,7 @@ class Layout extends React.Component{
 	getVal(){
 		return "narang"
 	}
+	//constructor function invoked automatically
 	constructor(){
 		super();
 		this.name = "pasha";
