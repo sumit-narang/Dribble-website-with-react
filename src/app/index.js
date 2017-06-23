@@ -20,6 +20,7 @@ class Layout extends React.Component{
 		//div1.innerHTML = "Hello";
 		//so jsx will transpile to above
 		return(
+			//should return 1 parent element
 			<h1>{this.name} How is it going {name} {4+3} {this.getVal()}</h1>
 		);
 	}
